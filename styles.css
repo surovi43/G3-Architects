@@ -162,6 +162,36 @@ img {
    margin-top: 0.5rem;
 }
 
+/* Facts section */
+.facts-section > p {
+   margin-top: 1rem;
+   margin-bottom: 1.5rem;
+}
+
+.fact-numbers {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(11.5625rem, 1fr));
+   gap: 0.75rem;
+}
+
+.fact-card {
+   padding: 1rem;
+   border-radius: 8px;
+   border: 1px solid #ff900e;
+   display: grid;
+   justify-items: center;
+}
+
+.fact-card > h1 {
+   font-weight: 600;
+   margin-top: 1.25rem;
+   margin-bottom: 0.5rem;
+}
+
+.fact-card > .icon {
+   width: 2.625rem;
+   height: 2.625rem;
+}
 /* Atomic CSS */
 .text-center {
    text-align: center;
