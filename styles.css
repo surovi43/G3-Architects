@@ -192,6 +192,25 @@ img {
    width: 2.625rem;
    height: 2.625rem;
 }
+
+/* Sponsores section */
+.sponsores-section > p {
+   margin-top: 1rem;
+   margin-bottom: 1.5rem;
+}
+
+.sponsores {
+   display: flex;
+   justify-content: center;
+   gap: 1.5rem;
+   flex-wrap: wrap;
+}
+
+.sponsores > img {
+   height: 1.5rem;
+   width: auto;
+}
+
 /* Atomic CSS */
 .text-center {
    text-align: center;
